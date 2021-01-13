@@ -1,0 +1,33 @@
+.letter-tile {
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: .2rem;
+}
+
+.selected {
+    background-color: #b3e5fc;
+}
+
+.letter-div {
+    font-family: 'Xanh Mono', monospace;
+    font-size: calc(10px + 2vmin);
+    min-height: 1.5rem;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.upper {
+    border-bottom: 2px solid #000;
+    z-index: 500;
+}
+
+.letter-upper {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.letter-lower {
+    color: #646464;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}

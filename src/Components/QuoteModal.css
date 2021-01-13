@@ -1,0 +1,64 @@
+.quote {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.quote-main {
+    border: 1px solid #424242;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 70%;
+    max-height: 80%;
+    padding: 20px 50px;
+    max-width: 1000px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.next-button {
+    background-color:  #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0,0.2);
+
+}
+
+.harryPotter {
+    margin-bottom: .3rem;
+}
+
+.and-the {
+    margin-bottom: 2rem;
+}
+
+.quote-text {
+    margin-bottom: 2rem;
+}
+
+.speaker {
+    margin-bottom: 2rem;
+}

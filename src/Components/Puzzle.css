@@ -1,0 +1,10 @@
+.word-wrapper {
+    margin-right: 1rem;
+    display: inline-block;
+    max-height: 90px;
+}
+
+.puzzle {
+    min-width: 500px;
+    text-align: justify;
+}
