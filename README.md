@@ -1,5 +1,7 @@
 # Harry Potter Cryptogram Game
 
+[Playable Version](https://dustinjray.github.io/cryptograms-web)
+
 This is a game about deciphering quotes from the Harry Potter novels that have been run through a letter-replacement algorithm. 
 
 ## Motivation
