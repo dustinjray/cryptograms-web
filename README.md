@@ -1,8 +1,12 @@
-#About
+# Harry Potter Cryptogram Game
 
-This is a cryptogram-deciphering React App where a Harry Potter quote has been run through a simple letter-replacement algorithm.
+This is a game about deciphering quotes from the Harry Potter novels that have been run through a letter-replacement algorithm. 
 
-##How to Play
+## Motivation
+
+I downloaded a cryptogram deciphering app on my phone and the thought occurred to me that I would like to play such a game, but with only quotes from a specific source. Since I love the Harry Potter books, I decided to go with those.
+
+## How to Play
 
 You will be presented with a series of blanks with the encrypted quote underneath them. If you think you know which letter from the original quote corresponds to the letter under the blanks, follow these steps:
 
@@ -12,24 +16,26 @@ You will be presented with a series of blanks with the encrypted quote underneat
 
 3. Repeat until victory.
 
-##Hints
+## Features
+
+### Hints
 
 If you get stuck, click the "hint" button. This will randomly fill in the correct answer to a letter that you have not already correctly guessed. This could be an empty letter, or one that you have guessed incorrectly.
 
-##Clear
+### Clear
 
 If you get yourself confused and need to clear the board, use this button. It will also remove all hints that you have been given.
 
-##Next
+### Next
 
 If you want to skip the current puzzle, press this button.
 
-##Go To
+### Go To
 
 Opens a prompt, allowing you to enter the number of a puzzle and go directly to that specific puzzle. Allows you to keep playing when you come back, though mid-game progress will not be saved.
 
-### Citations
+## Citations
 
-The quotes were taken from the Bloomsbury Publishing website: https://harrypotter.bloomsbury.com/uk/fun-stuff/quotes/
+The quotes were taken from the Bloomsbury Publishing [website](https://harrypotter.bloomsbury.com/uk/fun-stuff/quotes/)
 
-The method for initializing the Modals was taken from: https://www.digitalocean.com/community/tutorials/react-modal-component
+The method for initializing the Modals was found [here](https://www.digitalocean.com/community/tutorials/react-modal-component)
